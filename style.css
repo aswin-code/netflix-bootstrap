@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+#top {
+    background-image: url(IN-en-20220530-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+
+#btn {
+    background-color: red;
+}
+
+#top::after {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: '';
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+
+#netflix-logo {
+    color: red;
+
+}
+
+
+#second {
+    border-top: 10px solid rgb(53, 48, 48);
+    border-bottom: 10px solid rgb(53, 48, 48);
+    width: 100%;
+    background-color: black;
+}
+
+#img {
+    height: 100%;
+    width: 100%;
+}
+
+#third {
+    border-top: 10px solid rgb(53, 48, 48);
+    border-bottom: 10px solid rgb(53, 48, 48);
+    width: 100%;
+    background-color: black;
+}
+
+
+#four {
+    border-top: 10px solid rgb(53, 48, 48);
+    border-bottom: 10px solid rgb(53, 48, 48);
+    width: 100%;
+    background-color: black;
+}
+
+#five {
+    border-top: 10px solid rgb(53, 48, 48);
+    border-bottom: 10px solid rgb(53, 48, 48);
+    width: 100%;
+    background-color: black;
+}
+
+#collapseExample {
+    margin-top: 0;
+}
+
+footer {
+    border-top: 10px solid rgb(53, 48, 48);
+    border-bottom: 10px solid rgb(53, 48, 48);
+    width: 100%;
+    background-color: black;
+    color: rgb(110, 110, 110);
+}
+
+li {
+    list-style-type: none;
+}
